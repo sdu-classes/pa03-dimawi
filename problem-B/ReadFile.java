@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args){
         try{
-            String dimfile = "text.gitignore";
+            String dimfile = "text.txt";
             String[] arr = ReadFile(dimfile);
             for(String s : arr){
                 if(s != null) System.out.println(s);
